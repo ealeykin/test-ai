@@ -1,5 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using System;
+using System.Threading.Tasks;
 
-Console.WriteLine("Application works as expected!");
+Console.WriteLine("All is OK!");
+
+await Task.Delay(3000);
